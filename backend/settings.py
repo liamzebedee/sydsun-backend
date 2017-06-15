@@ -25,7 +25,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '0.0.0.0', 'api.sydneysunsets.com']
 
-
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 REST_FRAMEWORK = {
 	'DEFAULT_RENDERER_CLASSES': (
