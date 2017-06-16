@@ -6,6 +6,7 @@ services:
     command: python3 manage.py runserver 0.0.0.0:42000
     volumes:
       - .:/code
+      - .:/code/backend/api/secret.py
     ports:
       - "42000:42000"
     environment:
