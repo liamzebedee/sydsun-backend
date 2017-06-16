@@ -1,2 +1,2 @@
-python3 manage.py migrate
-exec "$@"
+# python3 manage.py migrate
+# exec "$@"
