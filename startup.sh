@@ -1,2 +1,2 @@
 #!/bin/bash
-/home/liamz/docker-compose up
+/home/liam/docker-compose up
